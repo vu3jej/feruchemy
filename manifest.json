@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Feruchemy",
+  "version": "1.0",
+  "description": "Save the page contents with type to the Coppermind.",
+  "icons": {
+    "48": "icons/1x/twotone_save_black_48dp.png",
+    "96": "icons/2x/twotone_save_black_48dp.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/2x/twotone_save_black_48dp.png",
+    "default_title": "Tag 'n Save",
+    "default_popup": "popup/choose_type.html"
+  }
+}

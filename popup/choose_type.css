@@ -1,0 +1,25 @@
+html, body {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    margin: 3% auto;
+    padding: 1em;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.pagetype:hover {
+    background-color: #CFF2F2;
+}
+
+.pagetype {
+    background-color: #E5F2F2;
+}
