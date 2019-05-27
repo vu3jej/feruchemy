@@ -17,9 +17,10 @@ html, body {
 }
 
 .pagetype:hover {
-    background-color: #CFF2F2;
+    color: white;
+    background: radial-gradient(ellipse at right, #92B3A8, #49816E);
 }
 
 .pagetype {
-    background-color: #E5F2F2;
+    background-color: #B6CDC5;
 }
