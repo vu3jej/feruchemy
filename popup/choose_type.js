@@ -33,6 +33,7 @@ function listenForClicks() {
         if (e.target.classList.contains("pagetype")) {
             browser.tabs.query({active: true, currentWindow: true})
                 .then(sendMessageToTabs, reportError)
+                .then(window.close)
         }
     });
 }
