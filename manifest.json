@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Feruchemy",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Save the page contents with type to the Coppermind.",
   "icons": {
     "48": "icons/1x/twotone_save_black_48dp.png",
     "96": "icons/2x/twotone_save_black_48dp.png"
   },
   "permissions": [
+    "*://coppermind.herokuapp.com/*",
     "activeTab"
   ],
   "browser_action": {
