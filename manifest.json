@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Feruchemy",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Save the page contents with type to the Coppermind.",
   "icons": {
     "48": "icons/1x/twotone_save_black_48dp.png",
